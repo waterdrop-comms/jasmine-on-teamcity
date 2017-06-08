@@ -3,7 +3,7 @@ var app = express();
 var exports = module.exports = {};
 
 app.get('/', function(req, res){
-    res.send('Hello Mom');
+    res.send('Hello World');
 });
 
 var server = app.listen(3000,'0.0.0.0', function(){
